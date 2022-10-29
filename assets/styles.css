@@ -6,7 +6,6 @@
 body {
   width: 100vw;
   height: 100vh;
-  /* background-color: #e54d96; */
 }
 
 .banner {
@@ -87,6 +86,9 @@ main {
   margin-top: 20px;
 }
 
+.footer {
+  height: 500px;
+}
 .card__container {
   display: flex;
   flex-wrap: wrap;
@@ -102,7 +104,14 @@ main {
   margin: 5px;
 }
 
+.image__container {
+  width: 100px;
+}
 
-.footer {
-  height: 500px;
+.card__image {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: multiply;
 }
