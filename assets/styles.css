@@ -83,7 +83,7 @@ main {
 }
 
 .header {
-  margin-top: 20px;
+  margin: 70px 0 70px 0;
 }
 
 .footer {
@@ -104,14 +104,36 @@ main {
   margin: 5px;
 }
 
-.image__container {
-  width: 100px;
-}
-
 .card__image {
   position: relative;
   height: 200px;
   background-size: cover;
   background-position: bottom;
   background-blend-mode: multiply;
+}
+
+.card__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.info__container {
+  margin: 10px 0 0 20px;
+  line-height: 1.5;
+}
+
+.url__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.url {
+  padding: 20px;
+  border-radius: 3px;
+  background-color: rgb(206, 206, 206);
+  color: gray;
+  width: 75%;
 }
