@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0e4d8;
+}
+
+@font-face {
+  font-family: Lemon-Milk-Regular-Italic;
+  src: url("../fonts/LEMONMILK-RegularItalic.otf");
+}
+
+@font-face {
+  font-family: Lemon-Milk-Regular;
+  src: url("../fonts/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+  font-family: Lemon-Milk-Light-Italic;
+  src: url("../fonts/LEMONMILK-LightItalic.otf");
+}
+
+@font-face {
+  font-family: Lemon-Milk-Light;
+  src: url("../fonts/LEMONMILK-Light.otf");
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 200px;
+  background-color: #2c463f;
+  color: #fff;
+  font-family: Lemon-Milk-Light-Italic;
+  font-size: 14px;
+}
+
+.banner__user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 40px 0 0;
+}
+
+.banner__logo {
+  margin-bottom: 50px;
+  height: 60px;
+}
+
+.banner__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 500px;
+}
+
+.link__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.link__icon {
+  height: 50px;
+}
+
+.link__container:hover {
+  color: #e8a08a;
+  cursor: pointer;
+}
+
+.banner__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 500px;
+}
+
+/* -------Username-------- */
+.user__container {
+  display: flex;
+  margin-bottom: 55px;
+  align-items: center;
+  color: #dd876e;
+  font-size: 12px;
+}
+
+.user__icon {
+  height: 50px;
+  margin-right: 15px;
+}
+
+/* -------Main-------- */
+
+main {
+  margin: 20px;
+}
+
+.header {
+  font-family: Lemon-Milk-Regular-Italic;
+  letter-spacing: 1.5px;
+  color: #a2493f;
+  margin: 70px 0 70px 0;
+}
+
+.footer {
+  height: 500px;
+}
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* -------Card-------- */
+.card {
+  flex: 1 0 21%;
+  height: 515px;
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.24);
+}
+
+.card__image {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  background-position: top;
+  background-blend-mode: multiply;
+}
+
+.card__header {
+  font-family: Lemon-Milk-Regular-Italic;
+  color: #a2493f;
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
+}
+
+.card__subtitle {
+  font-family: Lemon-Milk-Light;
+  font-size: 12px;
+
+}
+
+.details__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heart__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin: 20px 0 0 10px;
+}
+
+.heart__icon {
+  height: 65px;
+}
+
+.views__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin: 20px 10px 0 0;
+}
+
+.card__views {
+  color: #fff;
+  font-family: Lemon-Milk-Light;
+  font-size: 15px;
+  margin-bottom: 5px;
+  letter-spacing: 1.5px;
+}
+
+.card__numbers {
+  color: #fff;
+  font-family: Lemon-Milk-Light-Italic;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+.card__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.info__container {
+  margin: 10px 0 0 20px;
+  line-height: 1.5;
+}
+
+.url__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.url {
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #f0e4d8;
+  color: #d88269;
+  width: 75%;
+  font-family: Lemon-Milk-Light;
+  font-size: 10px;
+  word-wrap: break-word;
+}
+
+.aesthetic__container {
+  margin: 20px 0 5px 20px;
+  line-height: 1.5;
+}
+
+.aesthetic__board {
+  font-family: Lemon-Milk-Regular;
+  font-size: 14px;
+  color: #2c463f;
+  margin-bottom: 2px;
+}
+
+.aesthetic__text {
+  font-family: Lemon-Milk-Light-Italic;
+  font-size: 16px;
+  color: #dd876e;
+}
+
+.pins__container {
+  margin: 10px 0 0 20px;
+  line-height: 1.2;
+}
+
+.pins__board {
+  font-family: Lemon-Milk-Regular;
+  font-size: 14px;
+  color: #2c463f;
+  margin-bottom: 2px;
+}
+
+.pins__text {
+  font-family: Lemon-Milk-Light-Italic;
+  font-size: 34px;
+  color: #e8a08a;
+}
