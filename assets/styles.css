@@ -100,8 +100,8 @@ main {
 .card {
   flex: 1 0 21%;
   height: 500px;
-  background-color: aquamarine;
-  margin: 5px;
+  margin: 10px;
+  box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.24);
 }
 
 .card__image {
