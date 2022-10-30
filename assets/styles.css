@@ -6,6 +6,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  background-color: aliceblue;
 }
 
 .banner {
@@ -98,8 +99,7 @@ main {
 /* -------Card-------- */
 .card {
   flex: 1 0 21%;
-  /* width: 400px; */
-  height: 475px;
+  height: 500px;
   background-color: aquamarine;
   margin: 5px;
 }
@@ -177,6 +177,11 @@ main {
 }
 
 .playlist__container {
+  margin: 10px 0 0 20px;
+  line-height: 1.5;
+}
+
+.attachments__container {
   margin: 10px 0 0 20px;
   line-height: 1.5;
 }
