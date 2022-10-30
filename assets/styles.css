@@ -112,6 +112,44 @@ main {
   background-blend-mode: multiply;
 }
 
+.details__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heart__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  margin: 20px 0 0 10px;
+}
+
+.heart__icon {
+  height: 75px;
+}
+
+.views__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin: 20px 10px 0 0;
+}
+
+.card__views {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 5px;
+  letter-spacing: 1.5px;
+}
+
+.card__numbers {
+  color: #fff;
+  font-size: 35px;
+  letter-spacing: 1.5px;
+}
+
 .card__details {
   display: flex;
   flex-direction: column;
