@@ -9,26 +9,29 @@ body {
   background-color: #f0e4d8;
 }
 
+/* -------Fonts-------- */
+
 @font-face {
   font-family: Lemon-Milk-Regular-Italic;
-  src: url("../fonts/LEMONMILK-RegularItalic.otf");
+  src: url('../fonts/LEMONMILK-RegularItalic.otf');
 }
 
 @font-face {
   font-family: Lemon-Milk-Regular;
-  src: url("../fonts/LEMONMILK-Regular.otf");
+  src: url('../fonts/LEMONMILK-Regular.otf');
 }
 
 @font-face {
   font-family: Lemon-Milk-Light-Italic;
-  src: url("../fonts/LEMONMILK-LightItalic.otf");
+  src: url('../fonts/LEMONMILK-LightItalic.otf');
 }
 
 @font-face {
   font-family: Lemon-Milk-Light;
-  src: url("../fonts/LEMONMILK-Light.otf");
+  src: url('../fonts/LEMONMILK-Light.otf');
 }
 
+/* -------Banner-------- */
 .banner {
   display: flex;
   justify-content: space-between;
@@ -56,26 +59,26 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
-  width: 500px;
+  width: 600px;
 }
 
 .link__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  margin-left: 18px;
   margin-bottom: 30px;
 }
 
 .link__icon {
   height: 50px;
-  margin-right: 5px;
 }
 
 .link__text {
   font-family: Lemon-Milk-Light-Italic;
   letter-spacing: 2px;
+  margin-left: 12px;
 }
-
 
 .link__container:hover {
   color: #e8a08a;
@@ -143,7 +146,7 @@ main {
   height: 515px;
   margin: 10px;
   background-color: #fff;
-  box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.24);
+  box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.24);
 }
 
 .card__image {
@@ -164,7 +167,6 @@ main {
 .card__subtitle {
   font-family: Lemon-Milk-Light;
   font-size: 12px;
-
 }
 
 .details__container {
@@ -182,6 +184,10 @@ main {
 
 .heart__icon {
   height: 65px;
+}
+
+.heart__icon:hover {
+  transform: scale(1.2);
 }
 
 .views__container {
