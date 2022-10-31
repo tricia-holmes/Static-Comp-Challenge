@@ -2,6 +2,8 @@
 
 https://user-images.githubusercontent.com/108706408/198916239-032c9130-ed23-4512-9e56-d93e5ddabec9.mp4
 
+[Live site here!](https://tricia-holmes.github.io/Static-Comp-Challenge/)
+
 ## Abstract
 
 Hi! This is my `static solo comp` project. The goal was to build something that respects the integrity of the original design, while being able to take creative license with theme, fonts, color palette, icons, and images. I made mine into a `Pinerest` like design. I've been getting very excited for decorating for the holidays so a majority of the content was focused on different design aesthetics for the holidays <img src="https://user-images.githubusercontent.com/108706408/198917516-5df70469-95fd-43bc-904b-c12a3b0341d8.gif" style="height: 45px">
