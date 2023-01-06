@@ -17,7 +17,3 @@ Hi! This is my `static solo comp` project. The goal was to build something that 
 - Above is my version and below is the original screenshot from the project spec:
 
 ![static-comp-challenge](https://user-images.githubusercontent.com/108706408/198916732-6284ce68-6e28-4a8c-bd70-dd5dabf7d964.jpeg)
-
-## Context
-
-- I am currently a Front End student at Turing in Mod 2. This project was our Mod 2 week 3 project and the goals were to follow a given design and to get practice in using only `HTML` and `CSS`.
